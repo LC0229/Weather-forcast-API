@@ -3,7 +3,7 @@ from openai import OpenAI
 from openai import APIError
 
 
-api_Key = "sk-proj-FvvTeHjyYTzpVU1Y6R8fT3BlbkFJ1JRNIuPJyArrTZHri0AP"
+api_Key = "Fill with your api key"
 
 class Chatbot:
 
