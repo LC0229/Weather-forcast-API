@@ -25,10 +25,10 @@ class Weather:
             "days": i
         }
 
-        # 4. create the request
+        
         resp = requests.get(target_url, params=params, headers={"Accept": "application/json"})
 
-        # 5. check the response
+        
         status_code = resp.status_code
         if status_code != 200:
             # string interpolation
@@ -57,7 +57,7 @@ class Weather:
 
         return res
 
-    # TODO
+    
     def get_current_weather(self) -> dict:
         path = "current.json"
         target_url = os.path.join(base_url,path)
@@ -100,7 +100,7 @@ class Weather:
 
         return res
 
-    # TODO
+    
     def get_ith_astro(self) -> dict:
         path = "astronomy.json"
         target_url = os.path.join(base_url, path)
