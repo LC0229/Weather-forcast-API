@@ -27,11 +27,7 @@ class Chatbot:
 
 
 
-if __name__ == "__main__":
-    input = "is UCSD good school?"
-    role = "user"
-    robot = Chatbot(api_Key)
-    print(robot.generate_text(input,role))
+
 
 
 
